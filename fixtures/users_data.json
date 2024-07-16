@@ -1,0 +1,104 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$RgkISpFcrfb2F15NXQhy37$i9+H4eJ5o85CoImv1BS4gbWFkFU/bSO/3gXDB7cGo8E=",
+      "last_login": "2024-07-16T04:42:55.453Z",
+      "is_superuser": true,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-07-16T04:37:26.081Z",
+      "email": "admin@sky.pro",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$uJzqXdkuCw0u1IvR7XnQkm$uRFzk8DzBDmiT+EHWOUeVPocoBGTmaafqKPX2FJjaG0=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-07-16T04:37:43.552Z",
+      "email": "manager@sky.pro",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$pEtzlfh9NnVl1lUA2t8Tmq$90qR7M+vCfrL6cXVZbsi4fkRvd3nl1tdAld29tmL/9c=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-07-16T04:37:52.536Z",
+      "email": "test1@sky.pro",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$5ltmEvCFFIxH8YHZ8pFPMh$btjaj4+8BdCAOtj4sIo6hAn8ggXBeu/mpCwsVewwlhk=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-07-16T04:37:52.810Z",
+      "email": "test2@sky.pro",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$i3Rl5FeLVrLrI7taYzaUxu$9Z+2/Z9NtEM/7jjysqEwLSVyaMmsKSfhIz7EhyDBjJA=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-07-16T04:37:53.056Z",
+      "email": "test3@sky.pro",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$SBp3HQEdZxVExcByJO7UNE$uhZDoWmvD7R6eSM5z+cLVcFJBJLTzrsrbQjrQBGN8q8=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-07-16T05:52:16.122Z",
+      "email": "forg1tlabs@gmail.com",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

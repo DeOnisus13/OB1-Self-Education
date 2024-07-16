@@ -1,0 +1,535 @@
+[
+  {
+    "model": "education.section",
+    "pk": 1,
+    "fields": {
+      "title": "Python",
+      "description": "Раздел Python",
+      "owner": 3
+    }
+  },
+  {
+    "model": "education.section",
+    "pk": 2,
+    "fields": {
+      "title": "Django",
+      "description": "Раздел Django",
+      "owner": 4
+    }
+  },
+  {
+    "model": "education.section",
+    "pk": 3,
+    "fields": {
+      "title": "DRF",
+      "description": "Раздел DRF",
+      "owner": 5
+    }
+  },
+  {
+    "model": "education.materials",
+    "pk": 1,
+    "fields": {
+      "title": "Python Junior",
+      "content": "Материал по изучению Python Junior",
+      "section": 1,
+      "owner": 3
+    }
+  },
+  {
+    "model": "education.materials",
+    "pk": 2,
+    "fields": {
+      "title": "Python Middle",
+      "content": "Материалы по изучению Python Middle",
+      "section": 1,
+      "owner": 3
+    }
+  },
+  {
+    "model": "education.materials",
+    "pk": 3,
+    "fields": {
+      "title": "Python Senior",
+      "content": "Материалы по изучению Python Senior",
+      "section": 1,
+      "owner": 3
+    }
+  },
+  {
+    "model": "education.materials",
+    "pk": 4,
+    "fields": {
+      "title": "Django Core",
+      "content": "Материалы по изучению Django Core",
+      "section": 2,
+      "owner": 4
+    }
+  },
+  {
+    "model": "education.materials",
+    "pk": 5,
+    "fields": {
+      "title": "Django Extend",
+      "content": "Материалы по изучению Django Extend",
+      "section": 2,
+      "owner": 4
+    }
+  },
+  {
+    "model": "education.materials",
+    "pk": 6,
+    "fields": {
+      "title": "DRF Core",
+      "content": "Материалы по изучению DRF Core",
+      "section": 3,
+      "owner": 5
+    }
+  },
+  {
+    "model": "education.testing",
+    "pk": 1,
+    "fields": {
+      "title": "Тест по Python Junior",
+      "materials": 1,
+      "description": "Тест по Python Junior",
+      "correct_answers": 55
+    }
+  },
+  {
+    "model": "education.testing",
+    "pk": 2,
+    "fields": {
+      "title": "Тест по Python Middle",
+      "materials": 2,
+      "description": "Тест по Python Middle",
+      "correct_answers": 0
+    }
+  },
+  {
+    "model": "education.testing",
+    "pk": 3,
+    "fields": {
+      "title": "Тест по Django Core",
+      "materials": 4,
+      "description": "Тест по Django Core",
+      "correct_answers": 0
+    }
+  },
+  {
+    "model": "education.testing",
+    "pk": 4,
+    "fields": {
+      "title": "Тест по DRF Core",
+      "materials": 6,
+      "description": "Тест по DRF Core",
+      "correct_answers": 0
+    }
+  },
+  {
+    "model": "education.question",
+    "pk": 1,
+    "fields": {
+      "text": "Python это ... язык программирования",
+      "test": 1
+    }
+  },
+  {
+    "model": "education.question",
+    "pk": 2,
+    "fields": {
+      "text": "Какая типизация данных в Python?",
+      "test": 1
+    }
+  },
+  {
+    "model": "education.question",
+    "pk": 3,
+    "fields": {
+      "text": "Что такое docstring?",
+      "test": 1
+    }
+  },
+  {
+    "model": "education.question",
+    "pk": 4,
+    "fields": {
+      "text": "Может ли быть индекс списка отрицательным?",
+      "test": 1
+    }
+  },
+  {
+    "model": "education.question",
+    "pk": 5,
+    "fields": {
+      "text": "Что делает функция print() ?",
+      "test": 1
+    }
+  },
+  {
+    "model": "education.question",
+    "pk": 6,
+    "fields": {
+      "text": "Что такое лямбда-функция?",
+      "test": 2
+    }
+  },
+  {
+    "model": "education.question",
+    "pk": 7,
+    "fields": {
+      "text": "Что такое PEP8 ?",
+      "test": 2
+    }
+  },
+  {
+    "model": "education.question",
+    "pk": 8,
+    "fields": {
+      "text": "Что означает pass ?",
+      "test": 2
+    }
+  },
+  {
+    "model": "education.question",
+    "pk": 9,
+    "fields": {
+      "text": "Для чего используется ключевое слово self ?",
+      "test": 2
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 1,
+    "fields": {
+      "text": "Компилируемый",
+      "question": 1,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 2,
+    "fields": {
+      "text": "Интерпретируемый",
+      "question": 1,
+      "is_correct": true
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 3,
+    "fields": {
+      "text": "Классный",
+      "question": 1,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 4,
+    "fields": {
+      "text": "Современный",
+      "question": 1,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 5,
+    "fields": {
+      "text": "Мягкая",
+      "question": 2,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 6,
+    "fields": {
+      "text": "Строгая",
+      "question": 2,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 7,
+    "fields": {
+      "text": "Жесткая",
+      "question": 2,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 8,
+    "fields": {
+      "text": "Динамическая",
+      "question": 2,
+      "is_correct": true
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 9,
+    "fields": {
+      "text": "Строка документации",
+      "question": 3,
+      "is_correct": true
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 10,
+    "fields": {
+      "text": "Строка собаки",
+      "question": 3,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 11,
+    "fields": {
+      "text": "Строка доктора",
+      "question": 3,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 12,
+    "fields": {
+      "text": "Такого нет",
+      "question": 3,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 13,
+    "fields": {
+      "text": "Нет, не может",
+      "question": 4,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 14,
+    "fields": {
+      "text": "Да, может",
+      "question": 4,
+      "is_correct": true
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 15,
+    "fields": {
+      "text": "Может быть только -1",
+      "question": 4,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 16,
+    "fields": {
+      "text": "Отправляет на принтер задание печати",
+      "question": 5,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 17,
+    "fields": {
+      "text": "Такой функции нет",
+      "question": 5,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 18,
+    "fields": {
+      "text": "Выводит в консоль то, что передано внутрь",
+      "question": 5,
+      "is_correct": true
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 19,
+    "fields": {
+      "text": "Главная функция в программе",
+      "question": 6,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 20,
+    "fields": {
+      "text": "Анонимная функция",
+      "question": 6,
+      "is_correct": true
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 21,
+    "fields": {
+      "text": "Это из Half-Life",
+      "question": 6,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 22,
+    "fields": {
+      "text": "Функция подсчета длины",
+      "question": 6,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 23,
+    "fields": {
+      "text": "Рекомендации по написанию кода",
+      "question": 7,
+      "is_correct": true
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 24,
+    "fields": {
+      "text": "Такого нет",
+      "question": 7,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 25,
+    "fields": {
+      "text": "Версия Python",
+      "question": 7,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 26,
+    "fields": {
+      "text": "Завершение программы",
+      "question": 8,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 27,
+    "fields": {
+      "text": "Обозначение завершения цикла",
+      "question": 8,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 28,
+    "fields": {
+      "text": "Пустой оператор",
+      "question": 8,
+      "is_correct": true
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 29,
+    "fields": {
+      "text": "Для обозначения имени программы",
+      "question": 9,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 30,
+    "fields": {
+      "text": "Обращение к текущему объекту класса",
+      "question": 9,
+      "is_correct": true
+    }
+  },
+  {
+    "model": "education.answer",
+    "pk": 31,
+    "fields": {
+      "text": "Для обозначения имени функции",
+      "question": 9,
+      "is_correct": false
+    }
+  },
+  {
+    "model": "education.usertestprogress",
+    "pk": 1,
+    "fields": {
+      "user": 3,
+      "test": 1,
+      "current_question": 1,
+      "is_complete": false,
+      "correct_answers_count": 0
+    }
+  },
+  {
+    "model": "education.usertestprogress",
+    "pk": 2,
+    "fields": {
+      "user": 4,
+      "test": 1,
+      "current_question": 1,
+      "is_complete": false,
+      "correct_answers_count": 0
+    }
+  },
+  {
+    "model": "education.usertestprogress",
+    "pk": 3,
+    "fields": {
+      "user": 4,
+      "test": 2,
+      "current_question": 6,
+      "is_complete": false,
+      "correct_answers_count": 0
+    }
+  },
+  {
+    "model": "education.usertestprogress",
+    "pk": 4,
+    "fields": {
+      "user": 4,
+      "test": 3,
+      "current_question": null,
+      "is_complete": false,
+      "correct_answers_count": 0
+    }
+  },
+  {
+    "model": "education.usertestprogress",
+    "pk": 5,
+    "fields": {
+      "user": 3,
+      "test": 3,
+      "current_question": null,
+      "is_complete": false,
+      "correct_answers_count": 0
+    }
+  }
+]
